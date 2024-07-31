@@ -1,0 +1,359 @@
+Logo
+body{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.header_section .header_bottom {
+  top: 14%;
+  position: fixed;
+  padding: 1px 0;
+  z-index: 100;
+  background-color: #48cff1;
+  width: 100%;
+}
+
+.logo_container{
+  width: 100%;
+  height: 15vh;
+  background-color: #fff;
+  padding: 4px 30px;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo_left_section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.logo_right_section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30%;
+}
+.logo_left_section li {
+  list-style: none;
+}
+.logo_right_section li {
+  list-style: none;
+}
+
+.risce-logo {
+  width: 100px;
+  height: 100px;
+  transform: scale(0.8);
+
+}
+.bit_logo {
+  width: 420px;
+  height: 110px;
+  margin-left:48%;
+}
+.bit_logo2{
+  width: 80px;
+  height: 90px;
+ 
+  margin-bottom: 10%;
+  transform: scale(0.8);
+
+}
+.spinger-logo {
+  width: 160px;
+  height: 60px;
+  transform: scale(0.8);
+
+}
+.silver-logo {
+  width: 80px;
+  height: 90px;
+  transform: scale(0.8);
+
+}
+
+.shadow {
+  -moz-box-shadow: 5px 5px 5px #888;
+  -webkit-box-shadow: 5px 5px 5px #888;
+  box-shadow: 1px solid 1px 5px 5px 5px #888;
+  margin-bottom: 5px;
+}
+td {
+  text-align: center;
+  vertical-align: top;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.row {
+  margin-left: 5%;
+}
+/* Style for the images within the table cells */
+td img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fff; /* Add a border around the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the links */
+td a {
+  text-decoration: none;
+  color: #0073e6; /* Link color */
+  font-weight: bold;
+}
+td a:hover {
+  text-decoration: underline;
+}
+tr + tr {
+  margin-top: 20px;
+}
+
+.convenor-card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  max-width: 320px;
+}
+.convenor img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: 200px;
+}
+
+.convenor a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #002d72;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.convenor p {
+  color: #333;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .convenor-card {
+    width: 100%;
+    max-width: none;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .chairperson-card {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .header_section .header_bottom {
+    top: 27%;
+    position: fixed;
+    padding: 5px 0;
+    z-index: 100;
+    background-color: #48cff1;
+    width: 100%;
+  }
+  
+  .logo_container {
+    padding: 4px 8px;
+    flex-direction: column;
+    height: 30vh;
+   
+  }
+  .logo_left_section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 10%;
+
+  }
+  .logo_right_section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10%;
+  }
+  .row {
+    margin-left: 0%;
+  }
+  .risce-logo {
+    width: 80px;
+    height: 80px;
+  }
+  .bit_logo {
+   display: none;
+  }
+  .bit_logo2{
+    display:block;
+    width: 70px;
+    height: 80px;
+  }
+  .spinger-logo {
+    width: 200px;
+    height:60px;
+  }
+  .silver-logo {
+    width: 80px;
+    height: 80px;
+  }
+  .advisors_section{
+    margin-top: 50%;
+  }
+  .section-with-bg {
+    background-color: #f6f7fd;
+    margin-top: 78%;
+    
+  }
+  .section-header {
+   
+    margin-top: 50%;
+  }
+  .contact_section {
+   
+    margin-top: 60%;
+    
+  }
+}
+
+
+/* Theme_ section  */
+    
+/*CSS for the main interaction
+*/
+.accordion > input[type="checkbox"] {
+ position: absolute;
+ left: -100vw;
+}
+
+.accordion .content {
+ overflow-y: hidden;
+ height: 0;
+ transition: height 3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+ height: auto;
+ overflow: visible;
+}
+
+.accordion label {
+ display: block;
+}
+
+/*
+Styling
+*/
+body {
+ font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+ color: #333;
+
+}
+
+.accordion {
+ margin-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+ padding: 15px;
+ border: 1px solid #e8e8e8;
+ border-top: 0;
+}
+
+.accordion .handle {
+ margin: 0;
+ font-size: 1.125em;
+ line-height: 1.2em;
+}
+
+.accordion label {
+ color: #333;
+ cursor: pointer;
+ font-weight: normal;
+ padding: 15px;
+ background: #e8e8e8;
+}
+
+.accordion label:hover,
+.accordion label:focus {
+ background: #d8d8d8;
+}
+
+.accordion .handle label:before {
+ font-family: 'fontawesome';
+ content: "\f054";
+ display: inline-block;
+ margin-right: 10px;
+ font-size: .58em;
+ line-height: 1.556em;
+ vertical-align: middle;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+ content: "\f078";
+}
+
+
+/*
+Demo purposes only
+*/
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+
+
+a {
+ color: #06c;
+}
+
+p {
+ margin: 0 0 1em;
+}
+
+h1 {
+ margin: 0 0 1.5em;
+ font-weight: 600;
+ font-size: 1.5em;
+}
+
+.accordion {
+ max-width: 100%;
+}
+
+.accordion p:last-child {
+ margin-bottom: 0;
+}
+.img-section-dropdown{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.img-section-dropdown img{
+ max-width: 50%;
+
+border-radius: 1%;
+}
+.content-section-dropdown{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 4% 20%;
+ font-weight: 400;
+ font-size: 1.2;
+
+}
