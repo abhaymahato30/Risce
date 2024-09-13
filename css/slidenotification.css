@@ -60,15 +60,15 @@
       }
   }
   
-  @media screen and (min-width:1400px) and (max-width:1725px) {
+  @media screen and (min-width:1670px) and (max-width:1725px) {
    #rssBlock{
         margin-top: 9%;
       }
   }
   
-  @media screen and (min-width:1459px) and (max-width:1655px) {
+  @media screen and (min-width:1400px) and (max-width:1655px) {
     #rssBlock{
-         margin-top: 9%;
+         margin-top: 10%;
        }
    }
    @media screen and (min-width:1250px) and (max-width:1399px) {
