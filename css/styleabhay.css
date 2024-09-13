@@ -1,7 +1,16 @@
-Logo
+
 body{
   font-weight: 500;
   font-size: 1rem;
+}
+/* Register form */
+.form_body{
+  background: #fef6f6;
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
 }
 
 .header_section .header_bottom {
@@ -170,7 +179,7 @@ tr + tr {
   .logo_container {
     padding: 4px 8px;
     flex-direction: column;
-    height: 30vh;
+    height: 80vh;
    
   }
   .logo_left_section {

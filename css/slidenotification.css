@@ -1,0 +1,81 @@
+#rssBlock{
+    
+    left:0px;
+    height: 34px;
+    background: #FFFFFF;
+    position: absolute;
+    width:100%;
+    overflow: hidden;
+    margin-top: 8%;
+    user-select:contain;
+    z-index: 1000;
+
+  }
+
+
+
+  /*remove p*/
+  .cnnContents {
+    width:100%;
+    padding-top: 10px;
+    margin:0 auto;
+    font-size: 20px;
+    white-space: nowrap;
+    color:black;
+    
+    font-family: 'Museo';
+    font-weight: 300;
+    background-color:#fff;
+    user-select: auto;
+ 
+  }
+ 
+
+  
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+ 
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+  }
+  @media screen and (max-width:1458px){
+    #rssBlock{
+        
+        
+        margin-top: 11%;
+      }
+
+  }
+
+  @media screen and (max-width:460px) {
+    .cnnContents {
+        font-size: 20px;
+    }
+    #rssBlock{
+        
+        
+        margin-top: 33%;
+      }
+  }
+  
+
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+  
+  
+  
