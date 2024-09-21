@@ -76,6 +76,11 @@
          margin-top: 12%;
        }
    }
+   @media screen and (min-width:50px) and (max-width:377px) {
+    #rssBlock{
+         display: none;
+       }
+   }
   @keyframes scrolling-left1 {
       0% {transform: translateX(100%);
           -webkit-transform: translateX(100%);}
