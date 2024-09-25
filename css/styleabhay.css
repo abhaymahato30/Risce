@@ -37,6 +37,14 @@ body{
   align-items: center;
   gap: 60px;
 }
+@media (min-width: 300px) and (max-width: 768px) {
+  .logo_left_section {
+    gap: 22%;
+  }
+
+
+}
+
 .logo_right_section {
   display: flex;
   align-items: center;
@@ -166,7 +174,7 @@ tr + tr {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (min-width: 206px) and(max-width: 390px) {
   .header_section .header_bottom {
     top: 27%;
     position: fixed;
@@ -177,6 +185,7 @@ tr + tr {
   }
   
   .logo_container {
+    display: none;
     padding: 4px 8px;
     flex-direction: column;
     height: 38vh;
@@ -365,4 +374,11 @@ border-radius: 1%;
  font-weight: 400;
  font-size: 1.2;
 
+}
+.payment-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  font-weight: 500;
 }

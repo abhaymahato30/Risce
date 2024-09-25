@@ -1121,8 +1121,12 @@ right: 0;
 .dates {
   margin-top: 5rem;
 }
+.first-section-header{
+  margin-top: 10%;
+
+}
 .section-header {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
@@ -1392,7 +1396,7 @@ tr + tr {
   background-color: #e9e9e9;
   padding: 30px;
   text-align: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .chairperson-card {
@@ -1501,10 +1505,30 @@ a {
 .btn {
   transition: 0.3s;
 }
+.first-section{
+  margin-top: 7%;
+}
 
 /*******************************/
 /******** Carousel CSS *********/
 /*******************************/
+@media (min-width: 300px) and (max-width: 768px) {
+  .carousel {
+  margin-top: 22%;
+
+
+  }
+  .section-with-bg {
+    margin-top: 48%;
+  }
+  .first-section-header{
+    margin-top: 32%;
+  }
+  .first-section{
+    margin-top: 26%;
+  }
+
+}
 .carousel {
   position: relative !important;
   width: 100% !important;

@@ -867,7 +867,7 @@ right: 0;
 .contact_section {
   position: relative;
   background-color: #f9f9f9;
-  margin-top: 12%;
+  margin-top: 10%;
 }
 .contact_section .detail {
   margin-top: 5rem;
@@ -1262,4 +1262,10 @@ right: 0;
   width: 55vw;
   height: 550px;
   margin-top: 6rem;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+
+  .contact_section{
+    margin-top: 40%;
+  }
 }

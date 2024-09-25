@@ -1028,4 +1028,10 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+@media (min-width: 300px) and (max-width: 768px) {
+ .advisors_section{
+  margin-top: 16%;
+ }
+
+}
 /*# sourceMappingURL=style.css.map */

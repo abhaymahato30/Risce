@@ -71,16 +71,17 @@
          margin-top: 10%;
        }
    }
-   @media screen and (min-width:1250px) and (max-width:1399px) {
+   @media screen and (min-width:1290px) and (max-width:1399px) {
     #rssBlock{
          margin-top: 12%;
        }
    }
-   @media screen and (min-width:50px) and (max-width:377px) {
+   @media screen and (min-width:0px) and (max-width:1290px) {
     #rssBlock{
-         display: none;
+      display: none;
        }
    }
+
   @keyframes scrolling-left1 {
       0% {transform: translateX(100%);
           -webkit-transform: translateX(100%);}
